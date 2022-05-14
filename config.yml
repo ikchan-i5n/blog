@@ -1,0 +1,114 @@
+baseURL: "https://blog.i5n.dev/"
+canonifyurls: true
+title: ikechan's Blog
+paginate: 5
+theme: PaperMod
+enableEmoji : true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+#  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: ExampleSite
+  description: "ExampleSite description"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: ikechan
+  # author: ["Me", "You"] # multiple authors
+  images: ["profile.png"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+        favicon: "favicon.png"
+        favicon16x16: "favicon.png"
+        favicon32x32: "favicon.png"
+        apple_touch_icon: "favicon.png"
+        safari_pinned_tab: "favicon.png"
+
+  label:
+    text: "Home"
+    #icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "ikechan's Blog"
+    subtitle: "infra engineer tech blog."
+    imageUrl: "profile.png"
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/ikchan-i5n"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: posts
+      weight: 1
+    - identifier: archives
+      name: Archive
+      url: archives
+      weight: 2
+    - identifier: profile
+      name: profile
+      url: /posts/profile/
+      weight: 3
+    - name: search
+      url: /search/
+      weight: 4
