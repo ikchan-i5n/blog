@@ -1,4 +1,4 @@
-baseURL: "https://blog.i5n.dev/"
+baseURL: "https://i5n.dev/"
 canonifyurls: true
 title: ikechan's Blog
 paginate: 5
@@ -21,8 +21,8 @@ outputs:
 
 params:
 #  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: ikechan's Blog
+  description: "infra engineer tech blog."
   keywords: [Blog, Portfolio, PaperMod]
   author: ikechan
   # author: ["Me", "You"] # multiple authors
