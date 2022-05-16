@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.i5n.dev/</loc>
+    <loc>https://i5n.dev/</loc>
     <lastmod>2022-05-14T01:28:25+09:00</lastmod>
   </url><url>
-    <loc>https://blog.i5n.dev/posts/</loc>
+    <loc>https://i5n.dev/posts/</loc>
     <lastmod>2022-05-14T01:28:25+09:00</lastmod>
   </url><url>
-    <loc>https://blog.i5n.dev/posts/profile/</loc>
+    <loc>https://i5n.dev/posts/profile/</loc>
     <lastmod>2022-05-14T01:28:25+09:00</lastmod>
   </url><url>
-    <loc>https://blog.i5n.dev/archives/</loc>
+    <loc>https://i5n.dev/archives/</loc>
   </url><url>
-    <loc>https://blog.i5n.dev/categories/</loc>
+    <loc>https://i5n.dev/categories/</loc>
   </url><url>
-    <loc>https://blog.i5n.dev/search/</loc>
+    <loc>https://i5n.dev/search/</loc>
   </url><url>
-    <loc>https://blog.i5n.dev/tags/</loc>
+    <loc>https://i5n.dev/tags/</loc>
   </url>
 </urlset>
