@@ -81,13 +81,11 @@ ikechan
   - PostgreSQL
 
 - その他
-  - 仮想化基盤構築、運用
-  - グループウェア導入
-  - Active Directory運用
-  - クラウドWAF導入
-  - プロジェクト管理ツール構築、運用(Redmine)
-  - アンチウイルスソフト導入(Symantec Endpoint Security、Apex one)
-  - メールゲートウェイ導入(Symantec Email Security.cloud、TMEmS)
-  - 資産管理ツール運用
-  - 素材管理ツール構築、運用(Alfresco)
-  - ファイルサーバ構築、運用
+  - グループウェア
+  - Active Directory
+  - クラウドWAF
+  - プロジェクト管理ツール
+  - アンチウイルスソフト
+  - メールゲートウェイ
+  - 資産管理ツール
+  - ファイルサーバ
