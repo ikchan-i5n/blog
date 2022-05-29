@@ -18,11 +18,11 @@ https://github.com/cocopon/iceberg.vim
 
 ## 導入方法
 1. 設定用のエントリーを作成(タグも設定しておくと便利)
-!["エントリー設定"](/images/iceberg1.PNG)
+!["エントリー設定"](iceberg1.PNG)
 1. カラーの`編集`をクリック
-!["カラー設定"](/images/iceberg2.PNG)
+!["カラー設定"](iceberg2.PNG)
 1. 下記の数値をコピーして右クリックで貼り付け
-!["カラー設定"](/images/iceberg3.PNG)
+!["カラー設定"](iceberg3.PNG)
 ```
 22  24  33
 22  24  33
