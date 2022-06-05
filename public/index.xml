@@ -9,7 +9,20 @@
       <link>https://i5n.dev/profile.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 14 May 2022 01:28:25 +0900</lastBuildDate><atom:link href="https://i5n.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 May 2022 19:58:51 +0900</lastBuildDate><atom:link href="https://i5n.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rloginにicebergのカラースキームを導入する</title>
+      <link>https://i5n.dev/posts/rlogin-iceberg/</link>
+      <pubDate>Sun, 22 May 2022 19:58:51 +0900</pubDate>
+      
+      <guid>https://i5n.dev/posts/rlogin-iceberg/</guid>
+      <description>普段自分はRloginを使っていますが、カラースキームにicebergが無かったので 作成しました。
+なぜiceberg?  かっこいいから つよつよエンジニアがつかってそう(偏見)  icerbergとは vim用に開発されたカラースキームで世界中から人気があります。
+導入方法  設定用のエントリーを作成(タグも設定しておくと便利)  カラーの編集をクリック  下記の数値をコピーして右クリックで貼り付け   30	33	50 226	120	120 180	190	130 226	164	120 132	160	198 160	147	199 137	184	194 198	200	209 107	112	137 233	137	137 192	202	142 233	177	137 145	172	209 173	160	211 149	196	206 210	212	222 シンボリックリンクが見えづらい場合はシアンを変更してみてください。
+これでRloginにicebergの導入完了です。
+では良いターミナルライフを！</description>
+    </item>
+    
     <item>
       <title>Profile</title>
       <link>https://i5n.dev/posts/profile/</link>
